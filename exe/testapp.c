@@ -140,7 +140,7 @@ Return Value:
     }
 
         (void)StringCchCopy( devName, MAX_LENGTH, functionClassDeviceData->DevicePath) ;
-        printf( "Attempting to open(just test for the GIT server update) %s\n", devName );
+        printf( "Attempting to open(just test for the GIT server update haha it's good) %s\n", devName );
 
     hOut = CreateFile (
                   functionClassDeviceData->DevicePath,
@@ -152,7 +152,7 @@ Return Value:
                   NULL); // No template file
 
     if (INVALID_HANDLE_VALUE == hOut) {
-                printf( "FAILED to open %s\n", devName );
+                printf( "FAILED to open(test again) %s\n", devName );
     }
         free( functionClassDeviceData );
         return hOut;
