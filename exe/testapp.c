@@ -140,7 +140,7 @@ Return Value:
     }
 
         (void)StringCchCopy( devName, MAX_LENGTH, functionClassDeviceData->DevicePath) ;
-        printf( "Attempting to open %s\n", devName );
+        printf( "Attempting to open(just test for the GIT server update) %s\n", devName );
 
     hOut = CreateFile (
                   functionClassDeviceData->DevicePath,
